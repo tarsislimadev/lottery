@@ -1,0 +1,18 @@
+div,
+h1,
+input,
+button {
+  margin: 0;
+}
+
+#txtNumber {
+  margin-bottom: 1rem;
+}
+
+#btnSave {
+  margin-bottom: 1rem;
+}
+
+#btnRandom {
+  margin-bottom: 1rem;
+}
