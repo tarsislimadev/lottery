@@ -1,9 +1,39 @@
+body {
+  font-size: 36px;
+}
+
 div,
 h1,
 input,
 button {
   margin: 0;
+  font-family: monospace;
+  border: none;
+  outline: none;
 }
+
+#app {
+  width: 600px;
+  margin: 0px auto;
+}
+
+#app h1 {
+  margin-bottom: 1rem;
+}
+
+#app input,
+#app button {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 1px solid #666666;
+  outline: 1px solid #333333;
+  border-radius: calc(1rem / 4);
+}
+
+#app input {
+}
+
+#app button {}
 
 #txtNumber {
   margin-bottom: 1rem;
