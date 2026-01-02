@@ -13,12 +13,13 @@ button {
 }
 
 #app {
-  width: 600px;
+  width: 400px;
   margin: 0px auto;
 }
 
 #app h1 {
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 #app input,
@@ -30,19 +31,22 @@ button {
   border-radius: calc(1rem / 4);
 }
 
-#app input {
+#groupNumber {
+  display: flex;
+  justify-content: space-between;
 }
-
-#app button {}
 
 #txtNumber {
   margin-bottom: 1rem;
+  width: 70%;
 }
 
 #btnSave {
   margin-bottom: 1rem;
+  width: 20%;
 }
 
 #btnRandom {
   margin-bottom: 1rem;
+  width: 100%;
 }
