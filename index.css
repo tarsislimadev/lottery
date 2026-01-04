@@ -50,3 +50,8 @@ button {
   margin-bottom: 1rem;
   width: 100%;
 }
+
+#txtResult {
+  font-size: 10rem;
+  text-align: center;
+}
