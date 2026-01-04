@@ -20,7 +20,7 @@ btnRandom.addEventListener('click', () => {
     txtNumber.disabled = false
     btnSave.disabled = false
     btnRandom.disabled = true
-    txtResult.innerText = 'ended'
+    txtResult.innerText = 'end'
     return
   }
   txtResult.innerText = randomNumber()
